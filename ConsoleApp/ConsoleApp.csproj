@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x86</PlatformTarget>
+    <Platforms>AnyCPU;x64;ARM64;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DbfDataReader" Version="0.8.0" />
+    <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.27.0" />
+    <PackageReference Include="Selenium.Opera.WebDriver" Version="2.30.0" />
+    <PackageReference Include="Selenium.QuickStart" Version="0.8.7.5" />
+    <PackageReference Include="Selenium.Support" Version="4.9.0" />
+	<PackageReference Include="Selenium.WebDriver" Version="4.9.0" />
+    <PackageReference Include="Selenium.Chrome.WebDriver" Version="85.0.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="113.0.5672.6300" />
+    <PackageReference Include="Selenium.WebDriver.Extensions" Version="4.1.0" />
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.33.0" />
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver.Win64" Version="0.33.0" />
+    <PackageReference Include="Selenium.WebDriver.IEDriver" Version="4.8.1" />
+    <PackageReference Include="Selenium.WebDriver.MicrosoftDriver" Version="17.17134.0" />
+    <PackageReference Include="Selenium.WebDriver.MicrosoftWebDriver" Version="10.0.17134" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="112.0.1722.39" />
+    <PackageReference Include="Selenium.WebDriver.PhantomJS.CrossPlatform" Version="2.1.1" />
+    <PackageReference Include="Selenium.WebDriverBackedSelenium" Version="4.1.0" />
+    <PackageReference Include="SeleniumWebDrivers" Version="1.0.0.4" />
+    <PackageReference Include="System.Data.Odbc" Version="8.0.0-preview.3.23174.8" />
+    <PackageReference Include="WebDriver.ChromeDriver.win32" Version="111.0.5563.64" />
+    <PackageReference Include="WebDriver.ChromeDriver.win32-2.36" Version="2.36.0" />
+    <PackageReference Include="WebDriver.IEDriverServer.win64" Version="3.150.1" />
+    <PackageReference Include="WebDriverIEDriver64" Version="2.45.0" />
+  </ItemGroup>
+
+</Project>
