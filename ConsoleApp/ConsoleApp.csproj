@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="DbfDataReader" Version="0.8.0" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="Selenium.Firefox.WebDriver" Version="0.27.0" />
     <PackageReference Include="Selenium.Opera.WebDriver" Version="2.30.0" />
     <PackageReference Include="Selenium.QuickStart" Version="0.8.7.5" />
